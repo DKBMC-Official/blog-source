@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo tranquilpeak theme</title>
-    <link>https://jiiiieuuuun.github.io/</link>
-    <description>Recent content on Hugo tranquilpeak theme</description>
+    <title>subcategory on Hugo tranquilpeak theme</title>
+    <link>https://jiiiieuuuun.github.io/categories/subcategory/</link>
+    <description>Recent content in subcategory on Hugo tranquilpeak theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 May 2019 10:00:38 +0900</lastBuildDate>
     
-	<atom:link href="https://jiiiieuuuun.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jiiiieuuuun.github.io/categories/subcategory/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -36,15 +36,6 @@
       
       <guid>https://jiiiieuuuun.github.io/2019/05/first/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Add</title>
-      <link>https://jiiiieuuuun.github.io/2019/05/add/</link>
-      <pubDate>Tue, 21 May 2019 16:22:28 +0900</pubDate>
-      
-      <guid>https://jiiiieuuuun.github.io/2019/05/add/</guid>
-      <description>dfdfd</description>
     </item>
     
   </channel>
