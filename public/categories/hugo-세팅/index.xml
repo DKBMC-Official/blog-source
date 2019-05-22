@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 세팅 on 기술블로그 TEST 중..</title>
+    <link>https://jiiiieuuuun.github.io/categories/hugo-%EC%84%B8%ED%8C%85/</link>
+    <description>Recent content in Hugo 세팅 on 기술블로그 TEST 중..</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©DKBMC. All rights reserved. Powered by GitHub Pages.</copyright>
+    
+	<atom:link href="https://jiiiieuuuun.github.io/categories/hugo-%EC%84%B8%ED%8C%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DK BMC 기술블로그</title>
+      <link>https://jiiiieuuuun.github.io/post/mypost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jiiiieuuuun.github.io/post/mypost/</guid>
+      <description>1. DKBMC  배달의민족 앱의 각 페이지들의 정보는 API를 호출해서 데이터를 가져온 후 사용자에게 정보를 노출하게 되는데 해당 페이지 정보의 데이터 고도화 및 신규 기능으로 인하여 API 주소가 변경 되어야 할 경우가 있습니다. 그래서 개발중인 프로젝트 테스트를 위해 API 주소 변경에 대한 요청이 발생되는데 그럴때 마다 프로젝트 환경에 맞춰서 앱에서 API들을 재설정을 해서 배포하게 됩니다. 문제는 다수의 프로젝트에서 API 주소 변경 요청 건들이 온다면? 각각의 프로젝트를 위해 API 정보들을 재설정 후 빌드 배포하는 행위를 반복적으로 하게 될겁니다.</description>
+    </item>
+    
+  </channel>
+</rss>
