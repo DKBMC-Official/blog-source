@@ -10,6 +10,10 @@ categories = [
     "Development",
     "golang",
 ]
+authors = [
+    "BongHoon Ko",
+    "Test Author"
+]
 image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 title = "Default .md 테스트"
 description = "test test"
@@ -29,7 +33,7 @@ comments = true
     <html>
         <head></head>
         <body></body>
-        <script>
+        <script type="text/javascript">
             var test = document.getElementById("thisId");
             test.style.display = "none";
             $(".test").css({"width":"100%","opacity":"0.5"});
