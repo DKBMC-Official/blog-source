@@ -1,0 +1,17 @@
+               <div class="post-preview">
+                 <a href="{{ .Permalink }}">
+                      <h2 class="post-title">{{ .Title }}</h2>
+                      <h3 class="post-subtitle">{{ .Description }}</h3>
+                      {{ range $index, $c :=  .Params.authors }}
+                        {{- if eq $index 0 -}}
+                          <span>{{ title . }}</span>
+                        {{- else -}}
+                          , <span>{{ title . }}</span>
+                        {{- end -}}
+                      {{ end }}
+                    </a>
+                    <p class="post-meta">
+                      {{ partial "meta.html" .}}
+                  </p>
+                </div>
+                <hr>
