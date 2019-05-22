@@ -1,22 +1,27 @@
 {{ partial "header.html" .}}
 
     <!-- Page Header -->
-    <header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/home-bg.jpg')">
+    <header class="intro-header" ><!--style="background-image: url('{{ .Site.BaseURL }}/img/home.png')"-->
      <div class="container">
        <div class="row">
          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
            <div class="site-heading">
-             <h1>{{ .Site.Title }}</h1>
-             <hr class="small">
+             <div class="site-title">
+                <img src="{{ .Site.BaseURL }}/img/dkbmc-logo-1.png" / >
+                <h1>{{ .Site.Title }}</h1>
+             </div>
+             
+             <!--<hr class="small">-->
              {{ with .Site.Params.Description }}<span class="subheading">{{ . }}</span>{{ end }}
            </div>
          </div>
        </div>
-     </div>
+     </div> 
     </header>
 
     <!-- Main Content -->
     <div class="container">
+      {{ partial "allCategoryList.html" .}}
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
@@ -31,6 +36,6 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> 
 
 {{ partial "footer.html" .}}

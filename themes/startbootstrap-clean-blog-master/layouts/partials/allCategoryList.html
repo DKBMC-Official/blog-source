@@ -1,0 +1,15 @@
+<div style="float: right;">
+    <p>All Categories</p>
+    <ul>
+        {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+            <li style="list-style:none;"><a href="{{.Permalink}}">{{.Title}}</a></li>
+        {{end}}
+    </ul>
+
+    <p>All Tags</p>
+    <ul>
+        {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+            <li style="list-style:none;"><a href="{{.Permalink}}">{{.Title}}</a></li>
+        {{end}}
+    </ul>
+</div>

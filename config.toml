@@ -1,12 +1,12 @@
 baseURL = "https://DKBMC-Official.github.io/"
 languageCode = "en-us"
-title = "기술블로그 TEST 중.."
+title = "Development"
 theme = "startbootstrap-clean-blog-master"
 copyright = "©DKBMC. All rights reserved. Powered by GitHub Pages."
 
 [params]
   DateForm = "Mon, Jan 2, 2006"
-  Description = "DK BMC Devlog Description"
+  Description = "DK BMC Technology Blog"
   Author = "DK BMC"
   email = "benoit.benedetti@gmail.com"
   Ganalytics = "XX-00000000-0"
