@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 기술블로그 TEST 중..</title>
-    <link>https://jiiiieuuuun.github.io/categories/</link>
+    <link>https://DKBMC-Official.github.io/categories/</link>
     <description>Recent content in Categories on 기술블로그 TEST 중..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©DKBMC. All rights reserved. Powered by GitHub Pages.</copyright>
     
-	<atom:link href="https://jiiiieuuuun.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://DKBMC-Official.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>https://jiiiieuuuun.github.io/categories/development/</link>
+      <link>https://DKBMC-Official.github.io/categories/development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jiiiieuuuun.github.io/categories/development/</guid>
+      <guid>https://DKBMC-Official.github.io/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo 세팅</title>
-      <link>https://jiiiieuuuun.github.io/categories/hugo-%EC%84%B8%ED%8C%85/</link>
+      <link>https://DKBMC-Official.github.io/categories/hugo-%EC%84%B8%ED%8C%85/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jiiiieuuuun.github.io/categories/hugo-%EC%84%B8%ED%8C%85/</guid>
+      <guid>https://DKBMC-Official.github.io/categories/hugo-%EC%84%B8%ED%8C%85/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://jiiiieuuuun.github.io/categories/golang/</link>
+      <link>https://DKBMC-Official.github.io/categories/golang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jiiiieuuuun.github.io/categories/golang/</guid>
+      <guid>https://DKBMC-Official.github.io/categories/golang/</guid>
       <description></description>
     </item>
     
