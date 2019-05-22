@@ -1,13 +1,19 @@
-baseURL = "https://DKBMC-Official.github.io/"
+baseurl = "http://humboldtux.github.io/sbcb-demo"
+title = "Start Bootstrap Clean Blog"
+canonifyurls = true
+paginate = 10
+theme = "startbootstrap-clean-blog"
+themesDir = "../../"
 languageCode = "en-us"
-title = "Development"
-theme = "startbootstrap-clean-blog-master"
-copyright = "©DKBMC. All rights reserved. Powered by GitHub Pages."
+copyright = "Code released under the Apache 2.0 license."
+
+[author]
+    name = "Benoît Benedetti"
 
 [params]
   DateForm = "Mon, Jan 2, 2006"
-  Description = "DK BMC Technology Blog"
-  Author = "DK BMC"
+  Description = "Your site description"
+  Author = "Benoît Benedetti"
   email = "benoit.benedetti@gmail.com"
   Ganalytics = "XX-00000000-0"
   # This will load all the CSS defined in the list
