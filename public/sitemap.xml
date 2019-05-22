@@ -3,30 +3,88 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/post/add/</loc>
-    <lastmod>2019-05-21T16:22:28+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2019-05-21T16:22:28+09:00</lastmod>
+    <loc>https://DKBMC-Official.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/post/</loc>
-    <lastmod>2019-05-21T16:22:28+09:00</lastmod>
+    <loc>https://DKBMC-Official.github.io/tags/dk-bmc/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://DKBMC-Official.github.io/post/mypost/</loc>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/post/dkbmc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/categories/development/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://DKBMC-Official.github.io/categories/hugo-%EC%84%B8%ED%8C%85/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/post/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/post/test1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/tags/development/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/post/hugofy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/tags/go/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/tags/golang/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/categories/golang/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/tags/templates/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/tags/themes/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Official.github.io/post/test/</loc>
   </url>
   
 </urlset>
