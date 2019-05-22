@@ -16,12 +16,16 @@
 .navbar{
     margin-bottom:0;
 }
+.tag_wrap{
+    margin-top:3rem; 
+}
 .tag_wrap >a {
     border-radius: 2rem;
     display: inline-block;
     border: 1px solid gray;
     padding: 0 .85rem;
     color: gray;
+    margin-top: .5rem;
 }
 .tag_wrap >a + a{
     margin-left:.5rem;
@@ -34,30 +38,75 @@
 } 
  
 .intro-header .site-heading h1{
-    font-size:4rem;
+    font-size:2.5rem;
     color:gray;
     margin-bottom:0;
     margin-left:1rem;
-    padding:.65rem 0 0 0;
+    padding:1rem 0 0 0;
 }
 .intro-header .container{
     height: 100%;
+    
+
 }
 .intro-header .container .row{
     height: 100%;
     display: flex;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .site-title{
     display:flex;
     align-content: center;
 }
+.site-title img{
+    height: 3.5rem;
+    margin-top: .5rem;
+}
 .intro-header .site-heading .subheading{
     color: gray;   
     text-align: left;
     font-size: 1.7rem;
 }
+/**category*/
+.category{
+    order: 1;
+    width: 20%;
+    display:none;
+}
+.intro-header + .container{
+    display: flex;  
+    justify-content: space-between; 
+}
+.intro-header + .container .row{
+    width:80%;
+}
+.category p{
+    margin:.5rem 0;
+
+}
+.category ul + ul{
+    margin-top:4rem;
+}
+.category ul > li {
+    line-height: 4rem;
+}
+/*post preview*/
+.post-preview_date{
+    font-size: 1.75rem;
+    color:gray;
+}
+.author{
+    font-size: 1.75rem;
+    margin-left:1.5rem;
+    color:gray;
+}
+.post-preview>a>.post-title{
+    margin-top: 1.85rem;
+}
+
 @media only screen and (min-width: 768px){
     .navbar-custom .navbar-brand{
         display: inline-block;
@@ -70,9 +119,31 @@
     .intro-header .site-heading{
         padding:6rem 0;
     }
+    
 }
 @media only screen and (min-width: 1170px){
 .navbar-custom.is-fixed{
     background-color :rgba(255,255,255,1);
+}
+.category{
+    display:block;
+} 
+.intro-header .container .row{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 -15px;
+}
+.intro-header .site-heading h1{
+    font-size:4rem;
+    color:gray;
+    margin-bottom:0;
+    margin-left:1rem;
+    padding:.65rem 0 0 0;
+}
+.site-title img{
+    height: 5rem;
+    margin-top: 0;
 }
 }

@@ -1,5 +1,8 @@
                <div class="post-preview">
+                <span class="post-preview_date"><b>{{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}</b></span>
+                <a href="#" class="author">{{ .Site.Params.Author }}</a>
                  <a href="{{ .Permalink }}">
+                    
                       <h2 class="post-title">{{ .Title }}</h2>
                       <h3 class="post-subtitle">{{ .Description }}</h3>
                       {{ range $index, $c :=  .Params.authors }}
