@@ -1,21 +1,26 @@
 +++
-tags = [
-    "go",
-    "golang",
-    "templates",
-    "themes",
-    "development",
-]
+<!-- 카테고리 -->
 categories = [
     "Development",
-    "golang",
 ]
+
+<!-- 작성자 -->
 authors = [
-    ""
+    "DKBMC",
 ]
-image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
+
+<!-- 제목 -->
 title = ""
+
+<!-- 설명 -->
 description = ""
+
+<!-- 비공개:false / 공개:true -->
 draft = false
+
+<!-- -->
+image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 comments = true
 +++
+
+<!-- 게시글 내용 -->
