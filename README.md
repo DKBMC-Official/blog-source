@@ -35,4 +35,22 @@
  - 소스 업로드 후 블로그 관리자에게 배포 요청
 
 
- ## 2. 게시글 작성 스타일 가이드
+ ## 2. 게시글 작성 스타일 가이드 (Markdown)
+  ### 2-1. 제목
+
+  #Heading1
+  ##Heading2
+  ###Heading3
+  ####Heading4
+  #####Heading5
+  ######Heading6
+<pre>
+    #Heading1
+    ##Heading2
+    ###Heading3
+    ####Heading4
+    #####Heading5
+    ######Heading6  
+</pre>
+
+  ### 2-2. 
