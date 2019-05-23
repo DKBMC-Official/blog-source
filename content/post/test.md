@@ -10,6 +10,9 @@ categories = [
     "Development",
     "golang",
 ]
+authors = [
+    "고봉훈"
+]
 image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 title = "테스트 코드"
 description = "test22222"

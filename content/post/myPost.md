@@ -3,7 +3,10 @@ tags = [
     "DK BMC"
 ]
 categories = [
-    "Hugo 세팅",
+    "Hugo Setting",
+]
+authors = [
+    "고봉훈"
 ]
 image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 title = "DK BMC 기술블로그"

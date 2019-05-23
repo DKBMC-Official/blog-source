@@ -26,7 +26,7 @@ img{width:100%;}
     display: inline-block;
     border: 1px solid gray;
     padding: 0 .85rem;
-    color: gray;
+    color: gray !important;
     margin-top: .5rem;
     font-size:1.5rem;
 }
@@ -102,11 +102,12 @@ img{width:100%;}
 /*post preview*/
 .post-preview_date{
     font-size: 1.75rem;
+    margin-right: 0.5rem;
     color:gray;
 }
 .author{
-    font-size: 1.75rem;
-    margin-left:1.5rem;
+    font-size: 1.65rem;
+    /*margin-left:1.5rem;*/
     color:gray;
 }
 .post-preview>a>.post-title{
@@ -118,15 +119,16 @@ img{width:100%;}
     width:100%
 } 
 .intro-header.post-header .post-heading{
-    padding: 2rem 3rem 3rem 3rem;
+    padding: 4rem 3rem 3rem 3rem;
     background-color: white;  
-    text-align: center;  
+    text-align: center; 
 }
 .intro-header.post-header .post-heading h1{
     color:#404040;
 }
 .intro-header.post-header .post-heading .subheading{
     color:#404040;
+    margin: 15px 0;
 }
 .intro-header.post-header .post-heading h1{
     font-size:3rem;
@@ -205,7 +207,7 @@ img{width:100%;}
     display: flex;
     align-items: center;
     width: 80%; 
-    margin: 0 -15px;
+    margin: 0;
 }
 .intro-header .site-heading h1{
     font-size:4rem;
@@ -228,7 +230,7 @@ img{width:100%;}
     width:100%;  
 }  
 .intro-header.post-header .post-heading{
-    padding: 2rem 3rem 3rem 3rem;
+    padding: 4rem 3rem 3rem 3rem;
     background-color: white;  
     text-align: center;  
 }
@@ -270,3 +272,15 @@ img{width:100%;}
 } 
 
 
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #0085a1;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    color: #0085a1;
+}
+.content-line a {
+    color: #0085a1;
+}
+.content-line p {
+    word-break: break-all;
+}

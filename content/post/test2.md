@@ -9,6 +9,11 @@ tags = [
 categories = [
     "Development",
     "golang",
+    "Hugo"
+]
+authors = [
+    "고봉훈",
+    "이지은"
 ]
 image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 title ="test"
