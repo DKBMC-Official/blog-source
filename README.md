@@ -20,7 +20,6 @@
   - `description` : 게시글의 간단한 부가 설명
   - `draft` : 값이 false일 경우 공개글, true일 경우 비공개글
   - +++ 아래에 내용 작성 (`html코드`나 `마크다운`으로 작성 가능)
-> 내용 작성에 관한 것은 아래 작성 스타일 가이드 참고 바랍니다.
 
 ### 1-4. 게시글 Local 서버에서 확인
  - `$ hugo server -D` 명령을 입력
@@ -36,21 +35,4 @@
 
 
  ## 2. 게시글 작성 스타일 가이드 (Markdown)
-  ### 2-1. 제목
-
-  #Heading1
-  ##Heading2
-  ###Heading3
-  ####Heading4
-  #####Heading5
-  ######Heading6
-<pre>
-    #Heading1
-    ##Heading2
-    ###Heading3
-    ####Heading4
-    #####Heading5
-    ######Heading6  
-</pre>
-
-  ### 2-2. 
+ [마크다운 관련 문서](https://heropy.blog/2017/09/30/markdown/)에서 참고바랍니다.
