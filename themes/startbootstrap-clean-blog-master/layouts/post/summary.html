@@ -1,6 +1,6 @@
                <div class="post-preview">
-                <span class="post-preview_date"><b>{{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}</b></span>
-                <a href="#" class="author">{{ .Site.Params.Author }}</a>
+                <span class="post-preview_date"><b>{{now.Format "Mon, Jan 2, 2006"}}</b></span>
+                <a href="#" class="author">{{ .Params.authors }}</a>
                  <a href="{{ .Permalink }}">
                     
                       <h2 class="post-title">{{ .Title }}</h2>
