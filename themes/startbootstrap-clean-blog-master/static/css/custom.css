@@ -68,6 +68,7 @@ img{width:100%;}
     text-align: left;
     font-size: 1.7rem;
 }
+.intro-header img{width:unset;}
 /**category*/
 .category{
     order: 1;
@@ -163,6 +164,7 @@ img{width:100%;}
     .intro-header + .container .row{
         width:100%;
     }
+    .intro-header img{width:unset;}
     /*post*/
     .post-header.intro-header .container .row{
         width:100%
@@ -175,7 +177,7 @@ img{width:100%;}
         margin-top:0;
     }
     img{width:100%;}
-
+    
     
    
       
@@ -211,6 +213,7 @@ img{width:100%;}
 .intro-header + .container .row{
     width:80%;
 }
+.intro-header img{width:unset;}
 /*post*/
 .post-header.intro-header .container .row{
     align-items: flex-end!important; 
@@ -255,5 +258,7 @@ blockquote p{
     margin-top:0;
 }
 img{width:100%;}
+
 } 
+
 
