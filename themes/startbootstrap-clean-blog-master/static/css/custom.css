@@ -75,6 +75,14 @@ img{width:100%;}
     width: 20%;
     display:none;
 }
+.category .category-title {
+    font-weight: normal;
+    padding: 1rem;
+    border-bottom: 1px solid #f1f1f1;
+}
+.category .category-list {
+    padding-left: 2rem;
+}
 .intro-header + .container{
     display: flex;  
     justify-content: space-between; 

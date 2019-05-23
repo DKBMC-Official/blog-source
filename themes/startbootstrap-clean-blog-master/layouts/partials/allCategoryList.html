@@ -1,8 +1,8 @@
 <div class="category">
-    <p>All Categories</p>
-    <ul>
+    <p class="category-title">All Categories</p>
+    <ul class="category-list">
         {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-            <li style="list-style:none;"><a href="{{.Permalink}}">{{.Title}}</a></li>
+            <li style="list-style:none;"> - <a href="{{.Permalink}}">{{.Title}}</a></li>
         {{end}}
     </ul>
 

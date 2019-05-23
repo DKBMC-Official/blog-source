@@ -15,7 +15,7 @@ title = ""
 <!-- 설명 -->
 description = ""
 
-<!-- 비공개:false / 공개:true -->
+<!-- 비공개: false / 공개: true -->
 draft = false
 
 <!-- -->
