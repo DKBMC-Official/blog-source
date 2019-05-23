@@ -1,3 +1,4 @@
+img{width:100%;}
 /*nav*/
 .navbar-custom {
     position:sticky;
@@ -128,9 +129,18 @@
     padding-left:30px;
     padding-right:30px;
 }
+blockquote{
+    border-left: 5px solid #0085a1!important;
+}
+blockquote p{
+    margin-top:0;
+}
+img{width:100%;}
 
+  
 
 @media only screen and (min-width: 768px){
+    img{width:100%;}
     /*nav*/
     .navbar-custom .nav li a{
         color:#404040;
@@ -157,11 +167,21 @@
     .post-header.intro-header .container .row{
         width:100%
     } 
+
+    blockquote{
+        border-left: 5px solid #0085a1!important;
+    }
+    blockquote p{
+        margin-top:0;
+    }
+    img{width:100%;}
+
     
    
       
 }
 @media only screen and (min-width: 1170px){
+    
 /*nav*/
 .navbar-custom.is-fixed{
     background-color :rgba(255,255,255,1);
@@ -213,7 +233,7 @@
 
 .content-line{
     padding-bottom:5rem;
-}
+} 
 
 /*chtter*/
 .utterances{
@@ -228,5 +248,12 @@
 p a {
     text-decoration: unset;
 }
- 
+blockquote{
+    border-left: 5px solid #0085a1!important;
+}
+blockquote p{
+    margin-top:0;
+}
+img{width:100%;}
 } 
+
