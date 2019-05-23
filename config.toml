@@ -9,20 +9,17 @@ paginate = 3
   DateForm = "Mon, Jan 2, 2006"
   Description = "DK BMC Technology Blog"
   Author = "DK BMC"
-  email = "benoit.benedetti@gmail.com"
+  # email = "benoit.benedetti@gmail.com"
   Ganalytics = "XX-00000000-0"
   # This will load all the CSS defined in the list
   # customCSS = ["<absolute path to CSS>", "/static/css/test.css", "<or just load it off the internet>"]
 
 [[params.social]]
-    title = "twitter"
-    url = "https://twitter.com/humboldtux"
-[[params.social]]
     title = "github"
-    url = "https://github.com/humboldtux"
+    url = "https://github.com/DKBMC-Official"
 [[params.social]]
     title = "facebook"
-    url = "https://www.facebook.com/FACEBOOKHANDLE"
+    url = "https://www.facebook.com/DKBMCLOUD/"
 
 [[menu.main]]
   name = "home"
