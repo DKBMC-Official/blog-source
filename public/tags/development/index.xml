@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>development on Development</title>
+    <title>development on Technology</title>
     <link>https://DKBMC-Official.github.io/tags/development/</link>
-    <description>Recent content in development on Development</description>
+    <description>Recent content in development on Technology</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©DKBMC. All rights reserved. Powered by GitHub Pages.</copyright>
@@ -12,12 +12,26 @@
     
     
     <item>
+      <title>Date test</title>
+      <link>https://DKBMC-Official.github.io/post/datetest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://DKBMC-Official.github.io/post/datetest/</guid>
+      <description>1. 사용법 기울이기 기울어짐 두꺼움 두껍다 동시에 두꺼우면서 기울어짐 취소할거임 취소 밑줄 밑줄쫙
+google</description>
+    </item>
+    
+    <item>
       <title>Default .md 테스트</title>
       <link>https://DKBMC-Official.github.io/post/dkbmc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://DKBMC-Official.github.io/post/dkbmc/</guid>
-      <description> &amp;lt;html&amp;gt; &amp;lt;head&amp;gt;&amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;TEST&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  &amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt;var test = document.getElementById(&amp;#34;thisId&amp;#34;);test.style.display = &amp;#34;none&amp;#34;;$(&amp;#34;.test&amp;#34;).css({&amp;#34;width&amp;#34;:&amp;#34;100%&amp;#34;,&amp;#34;opacity&amp;#34;:&amp;#34;0.5&amp;#34;});&amp;lt;/script&amp;gt; &amp;lt;/html&amp;gt; &amp;lt;section id=&amp;#34;main&amp;#34;&amp;gt;&amp;lt;div&amp;gt;&amp;lt;h1 id=&amp;#34;title&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt;{{ range .Pages }}{{ .Render &amp;#34;summary&amp;#34;}}{{ end }}&amp;lt;/div&amp;gt;&amp;lt;/section&amp;gt; </description>
+      <description>THIS IS A H1 THIS IS A H2  BlockQuote
+  BlockQuote2  BlockQuote3  BlockQuote3 -- paragraph!paragraph!paragraph!paragraph!paragraph!paragraph!paragraph!paragraph! paragraph!paragraph!paragraph!paragraph!paragraph!paragraph! paragraph!paragraph!paragraph!
+TEST PPP
+ One Two Three   TEST1 THIS2  syntax: title
+this ddd Double Double Cancel  &amp;lt;html&amp;gt; &amp;lt;head&amp;gt;&amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;TEST&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  &amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt;var test = document.getElementById(&amp;#34;thisId&amp;#34;);test.style.display = &amp;#34;none&amp;#34;;$(&amp;#34;.test&amp;#34;).css({&amp;#34;width&amp;#34;:&amp;#34;100%&amp;#34;,&amp;#34;opacity&amp;#34;:&amp;#34;0.5&amp;#34;});&amp;lt;/script&amp;gt; &amp;lt;/html&amp;gt; &amp;lt;section id=&amp;#34;main&amp;#34;&amp;gt;&amp;lt;div&amp;gt;&amp;lt;h1 id=&amp;#34;title&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt;{{ range .</description>
     </item>
     
     <item>

@@ -1,6 +1,6 @@
 baseURL = "https://DKBMC-Official.github.io/"
 languageCode = "en-us"
-title = "Development"
+title = "Technology"
 theme = "startbootstrap-clean-blog-master"
 copyright = "©DKBMC. All rights reserved. Powered by GitHub Pages."
 paginate = 3
@@ -29,6 +29,6 @@ paginate = 3
   url = "/"
   weight = -200
 [[menu.main]]
-  name = "Archives"
-  url = "/post/"
+  name = "Archives"   
+  url = "/post/" 
   weight = -180

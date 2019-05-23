@@ -11,8 +11,7 @@ categories = [
     "golang",
 ]
 authors = [
-    "BongHoon Ko",
-    "Test Author"
+    "BongHoon Ko"
 ]
 image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 title = "Default .md 테스트"

@@ -2,34 +2,51 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    {{ if isset .Params "image" }}<header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/{{ .Params.image }}')">
+    {{ if isset .Params "image" }}<header class="post-header intro-header " style="background-image: url('{{ .Site.BaseURL }}/img/post-bg2.jpg');height:35rem;border-bottom: none;">
       {{ else }}<header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/post-bg.jpg')">
     {{ end }}
       <div class="container">
         <div class="row">
-           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+           <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
              <div class="post-heading">
                <h1>{{ .Title }}</h1>
-               <h2 class="subheading">{{ .Description }}</h2>
-               <span class="meta">
-                 {{ partial "meta.html" .}}
-               </span>
+               <h2 class="subheading" style="font-weight:200;font-size:1.85rem;">{{ .Description }}</h2>
+               <span class="post-preview_date"><b>{{now.Format "Mon, Jan 2, 2006"}}</b></span>
+                <a href="#" class="author">
+                {{ range $index, $c :=  .Params.authors }}
+                      {{- if eq $index 0 -}}
+                        <span>{{ title . }}</span>
+                      {{- else -}}
+                        , <span>{{ title . }}</span>
+                      {{- end -}}
+                    {{ end }}
+                </a>
+               
              </div>
            </div>
         </div>
       </div>
     </header>
     <!-- Post Content -->
-    <article>
+    <article class="content-line">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 p-horizontal">
                   {{ .Content }}
                   {{ partial "comments.html" .}}
                 </div>
             </div>
+          <span class="meta">
+          <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1" style="padding-left:0;">
+          {{ partial "meta.html" .}}
         </div>
+          </span>
+            
+        </div>
+
+        
     </article>
+    <hr>
     <script src="https://utteranc.es/client.js"
     repo="handnew04/blog-comments"
     issue-term="pathname"
