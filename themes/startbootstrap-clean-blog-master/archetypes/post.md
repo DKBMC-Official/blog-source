@@ -6,7 +6,7 @@ categories = [
 
 #작성자
 authors = [
-    "DKBMC",
+    "",
 ]
 
 #제목
