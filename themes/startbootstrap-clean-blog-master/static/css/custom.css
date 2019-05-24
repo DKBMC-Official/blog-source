@@ -325,25 +325,25 @@ img{width:100%;}
     display: none;
 }
 .page-link[aria-label = "First"] {
-    background-image: url('http://localhost:1313/img/ico-left-2.png');
+    background-image: url('https://DKBMC-Official.github.io/img/ico-left-2.png');
     background-size: 20px;
     background-position: center;
     background-repeat: no-repeat;
 }
 .page-link[aria-label = "Previous"] {
-    background-image: url('http://localhost:1313/img/ico-left.png');
+    background-image: url('https://DKBMC-Official.github.io/img/ico-left.png');
     background-size: 20px;
     background-position: center;
     background-repeat: no-repeat;
 }
 .page-link[aria-label = "Next"] {
-    background-image: url('http://localhost:1313/img/ico-right.png');
+    background-image: url('https://DKBMC-Official.github.io/img/ico-right.png');
     background-size: 20px;
     background-position: center;
     background-repeat: no-repeat;
 }
 .page-link[aria-label = "Last"] {
-    background-image: url('http://localhost:1313/img/ico-right-2.png');
+    background-image: url('https://DKBMC-Official.github.io/img/ico-right-2.png');
     background-size: 20px;
     background-position: center;
     background-repeat: no-repeat;
