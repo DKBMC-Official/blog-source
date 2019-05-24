@@ -21,6 +21,7 @@ draft = false
 
 image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 comments = true
+date: {{ .Date }}
 +++
 
 <!-- 게시글 내용 -->

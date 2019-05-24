@@ -12,7 +12,7 @@
                <h1>{{ .Title }}</h1>
                <h2 class="subheading" style="font-weight:200;font-size:1.85rem;">{{ .Description }}</h2>
                <hr class="small" style="border-color: #0085a1;"/>
-               <span class="post-preview_date"><b>{{now.Format "Mon, Jan 2, 2006"}}</b></span>
+               <span class="post-preview_date"><b>{{.Page.Date.Format "Mon, Jan 2, 2006"}}</b></span>
                <span style="color:#333;font-size: 1.65rem;">written by</span>
                 <a href="#" class="author">
                 {{ range $index, $c :=  .Params.authors }}
