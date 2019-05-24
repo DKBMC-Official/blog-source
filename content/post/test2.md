@@ -9,12 +9,18 @@ tags = [
 categories = [
     "Development",
     "golang",
+    "Hugo"
+]
+authors = [
+    "고봉훈",
+    "이지은"
 ]
 image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 title ="test"
 description = "test"
 draft = false
 comments = true
+date = 2019-05-22T10:50:31+09:00
 +++
 <h2>1. Title</h2>
 {{< highlight html >}}

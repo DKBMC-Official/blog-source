@@ -10,11 +10,15 @@ categories = [
     "Development",
     "golang",
 ]
+authors = [
+    "고봉훈"
+]
 image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 title = "테스트 코드"
 description = "test22222"
 draft = false
 comments = true
+date = 2019-05-24T10:50:31+09:00
 +++
 
 <h2>1. Coding</h2>

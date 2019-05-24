@@ -26,6 +26,6 @@ paginate = 3
   url = "/"
   weight = -200
 [[menu.main]]
-  name = "Archives"   
+  name = "Posts"   
   url = "/post/" 
   weight = -180

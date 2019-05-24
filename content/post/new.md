@@ -18,6 +18,7 @@ title = "new"
 description = "now date test"
 draft = false
 comments = true
+date = 2019-05-24T10:50:31+09:00
 +++
 
 # 1. 사용법

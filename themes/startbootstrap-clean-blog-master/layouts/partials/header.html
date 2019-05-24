@@ -10,6 +10,13 @@
     <meta name="author" content="{{ if .Params.authors }}{{ .Params.authors }}{{ else if .Site.Params.Author }}{{.Site.Params.Author}}{{ end }}">
     <meta name="keywords" content="{{ if .Keywords }}{{ delimit .Keywords ", " }}{{ end }}">
 
+    <meta property="og:title" content="DKBMC 기술 블로그"/>
+    <meta property="og:description" content="DKBMC 기술 블로그입니다."/>
+    <meta property="og:url" content="http://blog.dkbmc.com"/>
+    <meta property="og:image" content="{{ .Site.BaseURL }}img/dkbmc-logo-1.png"/>
+    <meta property="og:image:width" content="100px"/>
+    <meta property="og:image:height" content="100px"/>
+
 
     <title>{{ .Title }} -- {{ .Site.Title }}</title>
 
@@ -59,7 +66,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ .Site.BaseURL }}"><!--<img src="{{ .Site.BaseURL }}/img/dkbmc-logo-1.png" alt="DKBMC LOGO" width="200px"/>--></a>
+                <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}/img/dkbmc-logo-1.png" alt="Home" style="width: 150px;cursor:pointer;margin-left: 10px"/></a>
             </div>
 
             {{ partial "navbar.html" . }}

@@ -10,9 +10,14 @@ categories = [
     "Development",
     "golang",
 ]
+authors = [
+    "고봉훈",
+    "이지은"
+]
 title = "Real Title"
 image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 description = "test1"
 draft = false
 comments = true
+date = 2019-05-22T10:50:31+09:00
 +++

@@ -3,13 +3,17 @@ tags = [
     "DK BMC"
 ]
 categories = [
-    "Hugo 세팅",
+    "Hugo Setting",
+]
+authors = [
+    "고봉훈"
 ]
 image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
 title = "DK BMC 기술블로그"
 description = "나의 첫번 째 포스트"
 draft = false
 comments = true
+date = 2019-05-24T10:50:31+09:00
 +++
 
 <h2>1. DKBMC</h2>
