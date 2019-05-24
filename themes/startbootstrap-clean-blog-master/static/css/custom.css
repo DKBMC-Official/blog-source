@@ -75,9 +75,7 @@ img{width:100%;}
     width: 20%;
     display:none;
 }
-<<<<<<< HEAD
 
-=======
 .category .category-title {
     font-weight: normal;
     padding: 1rem;
@@ -86,7 +84,6 @@ img{width:100%;}
 .category .category-list {
     padding-left: 2rem;
 }
->>>>>>> a66c4ead1e8c737af518888518d7709a190bf3d1
 .intro-header + .container{
     display: flex;  
     justify-content: space-between; 
@@ -306,8 +303,6 @@ img{width:100%;}
 }
 .post-preview {
     padding-left: 15px;
-<<<<<<< HEAD
-=======
 }
 .navbar-toggle {
     margin-top: 12.5px;
@@ -350,5 +345,4 @@ img{width:100%;}
         width: 120px !important;
         margin-top: 3.5px;
     }
->>>>>>> a66c4ead1e8c737af518888518d7709a190bf3d1
 }
