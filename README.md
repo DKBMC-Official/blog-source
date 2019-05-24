@@ -34,11 +34,9 @@
  - `git push origin master`
  - 소스 업로드 후 블로그 관리자에게 배포 요청
 
-<br/>
  ## 2. 게시글 작성 스타일 가이드 (Markdown)
  [마크다운 관련 문서](https://heropy.blog/2017/09/30/markdown/)에서 참고바랍니다.
 
-<br/>
  ## 3. 블로그 배포 (관리자 only)
   - 배포 요청이 있을 시 `https://github.com/DKBMC-Official/blog-source` pull 받은 후
   - `$ hugo server -D` 명령을 입력
