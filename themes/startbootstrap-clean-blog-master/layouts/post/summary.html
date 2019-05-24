@@ -1,5 +1,5 @@
                <div class="post-preview">
-                <span class="post-preview_date"><b>{{now.Format "Mon, Jan 2, 2006"}}</b></span>
+                <span class="post-preview_date"><b>{{.Page.Lastmod.Format "Mon, Jan 2, 2006"}}</b></span>
                 <a href="#" class="author">
                 {{ range $index, $c :=  .Params.authors }}
                       {{- if eq $index 0 -}}

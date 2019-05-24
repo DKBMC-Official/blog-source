@@ -283,4 +283,14 @@ img{width:100%;}
 }
 .content-line p {
     word-break: break-all;
+    font-weight: normal;
+    font-size: 17px;
+    color: #565656;
+    line-height: 1.8;
+}
+.post-subtitle {
+    font-size: 20px;
+}
+.post-preview {
+    padding-left: 15px;
 }
