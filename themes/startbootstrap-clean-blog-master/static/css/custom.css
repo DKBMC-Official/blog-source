@@ -348,6 +348,22 @@ img{width:100%;}
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.dkhome-link {
+    position: relative;
+    display: inline-block;
+    width: 2.25em;
+    height: 2.25em;
+    line-height: 2em;
+    vertical-align: middle;
+    background-color: #404040;
+    border-radius: 50%;
+    margin-right: 7px;
+    background-position: 7px center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
 @media all and (max-width: 360px) {
     .intro-header {
         height: 15rem;

@@ -5,6 +5,10 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   <ul class="list-inline text-center">
+                      <li>
+                          <a class="dkhome-link" href="http://www.dkbmc.com/" target="_blank" title="DKBMC 홈페이지" 
+                          style="background-image:url('{{ .Site.BaseURL }}/img/ico-cloud.png');"></a>
+                      </li>
                     {{ with .Site.Params.email }}
                       <li>
                         <a href="mailto:{{ . }}">
@@ -18,7 +22,7 @@
                     {{ if isset .Site.Params "social" }}
                     {{ range .Site.Params.social }}
                     <li>
-                      <a href="{{ .url }}" target="_blank">
+                      <a href="{{ .url }}" target="_blank" title="{{ .url }}">
                         <span class="fa-stack fa-lg">
                           <i class="fa fa-circle fa-stack-2x"></i>
                           <i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>
