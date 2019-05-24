@@ -1,8 +1,13 @@
 <div class="category">
     <p class="category-title">All Categories</p>
     <ul class="category-list">
-        {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-            <li style="list-style:none;"> - <a href="{{.Permalink}}">{{.Title}}</a></li>
+        <!-- {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+            <li style="list-style:none;"><a href="{{.Permalink}}"> - {{.Title}}</a></li>
+        {{end}} -->
+        {{ range $.Site.Taxonomies.categories.ByCount }}
+            {{ if .Name }}
+                <li style="list-style:none;"><a href="/categories/{{ .Name | urlize}}/"> - {{ .Name }} <small>({{ .Count }})</small></a></li>
+            {{ end }}
         {{end}}
     </ul>
 
