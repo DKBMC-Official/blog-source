@@ -67,6 +67,7 @@ img{width:100%;}
     color: gray;   
     text-align: left;
     font-size: 1.7rem;
+    margin-left: 0.5rem;
 }
 .intro-header img{width:unset;}
 /**category*/
@@ -307,6 +308,46 @@ img{width:100%;}
 .navbar-toggle {
     margin-top: 12.5px;
 }
+
+.pagination_wrap {
+    text-align: center;
+}
+.page-link {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+}
+.pagination .page-item.disabled .page-link {
+    opacity: 0.3;
+}
+.page-link span {
+    display: none;
+}
+.page-link[aria-label = "First"] {
+    background-image: url('http://localhost:1313/img/ico-left-2.png');
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page-link[aria-label = "Previous"] {
+    background-image: url('http://localhost:1313/img/ico-left.png');
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page-link[aria-label = "Next"] {
+    background-image: url('http://localhost:1313/img/ico-right.png');
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page-link[aria-label = "Last"] {
+    background-image: url('http://localhost:1313/img/ico-right-2.png');
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 @media all and (max-width: 360px) {
     .intro-header {
         height: 15rem;
@@ -325,12 +366,15 @@ img{width:100%;}
     }
     .intro-header .site-heading .subheading {
         font-size: 1.5rem;
-        margin-left: 0.5rem;
     }
     .summary-list {
         padding: 0;
     }
     .p-horizontal {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content-line .p-horizontal {
         padding-left: 15px;
         padding-right: 15px;
     }

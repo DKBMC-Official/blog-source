@@ -28,11 +28,25 @@
 ### 1-5. 게시글 업로드
  - `git init`
  - `git remote add origin https://github.com/DKBMC-Official/blog-source`
+ - `git pull origin master`
  - `git add .`
  - `git commit -m "커밋메세지"`
  - `git push origin master`
  - 소스 업로드 후 블로그 관리자에게 배포 요청
 
-
+<br/>
  ## 2. 게시글 작성 스타일 가이드 (Markdown)
  [마크다운 관련 문서](https://heropy.blog/2017/09/30/markdown/)에서 참고바랍니다.
+
+<br/>
+ ## 3. 블로그 배포 (관리자 only)
+  - 배포 요청이 있을 시 `https://github.com/DKBMC-Official/blog-source` pull 받은 후
+  - `$ hugo server -D` 명령을 입력
+  - `localhost:1313`에 접속하여 배포될 게시글 검수
+  - 검수 완료시 `$ hugo` 명령 입력하여 Build
+  - `cd public` 빌드된 public 폴더로 이동 후
+  - `git init`
+  - `git remote add origin https://github.com/DKBMC-Official/dkbmc-official.github.io`
+  - `git add .`
+  - `git commit -m "커밋메세지"`
+  - `git push origin master`
