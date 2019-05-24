@@ -1,16 +1,16 @@
 +++
 #카테고리
 categories = [
-    "Development",
+    "SOQL",
 ]
 
 #작성자
 authors = [
-    "차용진",
+    "Yong-Jin",
 ]
 
 #제목
-title = "SOQL 01"
+title = "SOQL 기본문법(01)"
 
 #설명
 description = ""

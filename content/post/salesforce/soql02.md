@@ -1,16 +1,16 @@
 +++
 #카테고리
 categories = [
-    "Development",
+    "SOQL",
 ]
 
 #작성자
 authors = [
-    "차용진",
+    "Yong-Jin",
 ]
 
 #제목
-title = "SOQL 02"
+title = "SOQL 기본문법(02)"
 
 #설명
 description = ""
@@ -43,17 +43,11 @@ SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes ('AAA;BBB','CCC')
 Operator | Name | Description
 ---|:---|:---
 = | Equals | 
- |  | 
 != | Not equals | 
- |  | 
 < | Less than | 
- |  | 
 <= | Less or equal | 
- |  | 
 > | Greater than | 
- |  | 
 >= | Greater or equal | 
- |  | 
 LIKE | Like | SELECT AccountId, FirstName, lastname
  |  | FROM Contact
  |  | WHERE lastname LIKE'appl%'
