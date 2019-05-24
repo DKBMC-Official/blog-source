@@ -419,9 +419,10 @@ table {
 }
 th {
     padding: 10px 20px;
+    font-size: 16px;
     font-weight: bold;
-    border: 1px solid #f9f9f9;
-    border-bottom: 1px solid #404040;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #0085a1;
 }
 tr {
     background: #fff;
@@ -430,7 +431,7 @@ table tbody tr td, table tbody tr td {
     min-width: 40px;
     padding: 10px 20px;
     font-size: 0.85em;
-    border: 1px solid #f9f9f9;
+    border: 1px solid #ccc;
 }
 
 table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
