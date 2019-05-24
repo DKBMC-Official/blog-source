@@ -363,6 +363,9 @@ img{width:100%;}
     background-size: 30px;
     background-repeat: no-repeat;
 }
+.dkhome-link:hover {
+    background-color: #0085a1;
+}
 
 @media all and (max-width: 360px) {
     .intro-header {

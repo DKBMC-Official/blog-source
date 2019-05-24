@@ -36,6 +36,15 @@
 
  ## 2. 게시글 작성 스타일 가이드 (Markdown)
  [마크다운 관련 문서](https://heropy.blog/2017/09/30/markdown/)에서 참고바랍니다.
+ ---
+ ![하이라이트](https://DKBMC-Official.github.io/img/highlight.png)
+ 위의 이미지 처럼 코드박스를 만드려면,
+
+ {{< highlight html >}}
+   ...
+ {{< /highlight >}}
+
+ 안에 코드를 입력하시면 됩니다.
 
  ## 3. 블로그 배포 (관리자 only)
   - 배포 요청이 있을 시 `https://github.com/DKBMC-Official/blog-source` pull 받은 후
