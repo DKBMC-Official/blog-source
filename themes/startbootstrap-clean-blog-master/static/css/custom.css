@@ -433,6 +433,8 @@ table tbody tr td, table tbody tr td {
     font-size: 0.75em;
     letter-spacing: 0;
     border: 1px solid #ccc;
+    font-weight: 400;
+    color: #666;
 }
 
 table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
