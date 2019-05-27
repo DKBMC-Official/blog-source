@@ -212,6 +212,9 @@ img{width:100%;}
 .category .category-list {
     padding-left: 2rem;
 }
+.category .category-list a {
+    text-transform: uppercase;
+}
 .category p{
     margin:.5rem 0;
 }
