@@ -432,8 +432,11 @@ tr {
 table tbody tr td, table tbody tr td {
     min-width: 40px;
     padding: 10px 20px;
-    font-size: 0.85em;
+    font-size: 0.75em;
+    letter-spacing: 0;
     border: 1px solid #ccc;
+    font-weight: 400;
+    color: #666;
 }
 
 table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
