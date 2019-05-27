@@ -148,6 +148,8 @@ blockquote p{
 }
 img{width:100%;}
 
+
+
   
 
 @media only screen and (min-width: 768px){
@@ -450,3 +452,4 @@ table tbody tr td, table tbody tr td {
 table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     background-color: #f7f7f7;
 }
+
