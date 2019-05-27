@@ -47,12 +47,12 @@ FROM objectType[,...]
 ### SOQL 쿼리에서 null 사용
 ```sql
 SELECT AccountId
-FROM Event
-WHERE ActivityDate != null
+  FROM Event
+ WHERE ActivityDate != null
 
 SELECT Id
-FROM Case
-WHERE Contact.LastName = null
+  FROM Case
+ WHERE Contact.LastName = null
 ```
 
 ###### &nbsp;
