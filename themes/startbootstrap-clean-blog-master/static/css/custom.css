@@ -103,31 +103,39 @@ img{width:100%;}
 .post-preview_date{
     font-size: 1.75rem;
     margin-right: 0.5rem;
-    color:gray;
+    color: gray;
 }
 .author{
     font-size: 1.65rem;
     /*margin-left:1.5rem;*/
-    color:gray;
+    color:#fff;
 }
 .post-preview>a>.post-title{
     margin-top: .5rem;  
 }
 /*post*/
+.intro-header.post-header {
+    height: auto;
+    border-bottom: none;
+    padding: 6rem 0;
+}
 .post-header.intro-header .container .row{
     align-items: flex-end!important; 
     width:100%
 } 
 .intro-header.post-header .post-heading{
     padding: 4rem 3rem 3rem 3rem;
-    background-color: white;  
+    background-color: transparent;  
     text-align: center; 
 }
 .intro-header.post-header .post-heading h1{
-    color:#404040;
+    color:#fff;
+}
+.intro-header.post-header .post-heading .post-preview_date{
+    color: #fff;
 }
 .intro-header.post-header .post-heading .subheading{
-    color:#404040;
+    color:#fff;
     margin: 15px 0;
 }
 .intro-header.post-header .post-heading h1{
@@ -257,17 +265,17 @@ img{width:100%;}
 }  
 .intro-header.post-header .post-heading{
     padding: 4rem 3rem 3rem 3rem;
-    background-color: white;  
+    background-color: transparent;  
     text-align: center;  
 }
 .intro-header.post-header .post-heading h1{
-    color:#404040;
+    color:#fff;
 }
 .intro-header.post-header .post-heading .subheading{
-    color:#404040;
+    color:#fff;
 }
 .intro-header.post-header .post-heading h1{
-    font-size:3.5rem;
+    font-size:5rem;
 }
 
 .content-line{
