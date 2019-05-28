@@ -458,6 +458,10 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
 
 
 /* 채용정보 메인 */
+.job-container hr {
+    border-color: #0085a1;
+    border-width: 3px;
+}
 .job-main-container {
     display: none;
 }
