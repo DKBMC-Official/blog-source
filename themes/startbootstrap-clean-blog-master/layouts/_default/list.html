@@ -1,34 +1,103 @@
 {{ partial "header.html" . }}
-    <!-- Page Header -->
-    <header class="intro-header post-header" style="background-image: url('{{ .Site.BaseURL }}/img/home-bg.jpg');height:35rem;border-bottom: none;">
-    
-     <div class="container">
-        <div class="row" >
-           <div class="col-lg-10 col-md-10">
-             <div class="post-heading">
-               <h1>{{ .Title }}</h1>
-               <hr class="small" style="border-color:#0085a1;">
-               <h2 class="subheading" style="font-weight:200;font-size:1.85rem;">{{ .Description }}</h2>
-             </div>
-           </div>
-        </div>
-      </div>
-    </header>
+<!-- Page Header -->
+<header class="intro-header post-header list-header"
+  style="background-image: url('{{ .Site.BaseURL }}/img/home-bg.jpg');height:35rem;border-bottom: none;">
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row" style="width:100%">
-        <div class="col-lg-10 col-lg-offset-1 col-md-10 p-horizontal col-md-offset-1">
-          {{ range .Paginator.Pages }}
-              {{ .Render "archive" }}
-          {{ end }}
-          <div class="pagination_wrap">
-
-              {{ template "_internal/pagination.html" . }}
-          </div>
-          
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-10">
+        <div class="post-heading">
+          <h1>{{ .Title }}</h1>
+          <hr class="small" style="border-color:#0085a1;">
+          <h2 class="subheading" style="font-weight:200;font-size:1.85rem;">{{ .Description }}</h2>
         </div>
       </div>
     </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<div class="container list-container">
+  <div class="row" style="width:100%">
+    <div class="col-lg-10 col-lg-offset-1 col-md-10 p-horizontal col-md-offset-1">
+      {{ range .Paginator.Pages }}
+      {{ .Render "archive" }}
+      {{ end }}
+      <div class="pagination_wrap">
+
+        {{ template "_internal/pagination.html" . }}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- 채용정보 Container -->
+<section class="job-container job-main-container container">
+  <div class="row">
+    <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1 job-col">
+      <h2>DK BMC는 이런 회사입니다</h2>
+      <p class="job-col__txt">㈜디케이 비엠시는 2010년에 설립된 회사로 자본금 91,000만원, 매출액 100억, 사원수 35명 규모의 중소기업입니다.
+        서울 강남구 압구정로2길 58 (신사동)에 위치하고 있으며,
+        SI, Salesforce CRM, Demandware E-Commerce, AWS, Azure 사업을 하고 있습니다.
+
+        Salesforce는 세계 1위 CRM솔루션의 이름이자 세계최고 클라우드 컴퓨팅 회사의 이름이며,
+        ㈜디케이 비엠시는 한국 유일의 Salesforce 골드 파트너사입니다.
+
+        아모레퍼시픽, 성주그룹(MCM), 옐로스토리(옐로오투오), 캐논코리아비지니스솔루션, 효성인포메이션, 한라시멘트등
+        유수의 기업 솔루션을 구축하였습니다.
+      </p>
+    </div>
+    <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1 job-col">
+      <h2>
+        우리는 이런 문화 속에서 일합니다
+      </h2>
+      <ul>
+        <li>
+          <h3>제품을 대하는 자세</h3>
+          <p>
+            우리 스스로 직접 쓰고 싶은, 친한 친구나 가족에게 기꺼이 권하고 싶은 서비스를 만듭니다. 실제로 스포카를 다니다가 매장을 창업한 분 중에도 도도 서비스를 사용하시는 분이 많습니다. 그만큼
+            제품에 확신과 자부심이 있고 시장을 통해 확인받고 있습니다.
+          </p>
+        </li>
+        <li>
+          <h3>일을 바라보는 자세</h3>
+          <p>
+            수평적 관계에서 모두가 책임감을 느끼고 합리적으로 일합니다. 서로 솔직하게 의견을 주고받으며 생산적으로 토론합니다. 작업자가 스스로 일정을 산정하고, 최종 의사 결정권을 가집니다. 그렇기 때문에
+            의사결정에 있어서 모든 사람이 충분히 납득할 수 있습니다. 또한, 우리는 실패를 두려워하지 않습니다. 실패를 방지하거나 비난하는 것보다는 넘어졌을 때 다시 잘 일어나는 방법을 고민합니다.
+          </p>
+        </li>
+        <li>
+          <h3>동료를 대하는 자세</h3>
+          <p>
+            우리는 다양한 사람이 모여있지만 배움을 즐기고, 성장에 재미를 느끼며, 자유로움을 좋아한다는 공통점이 있습니다. 동료를 차별하지 않고 자신의 일을 사랑하며 팀에 자긍심을 느낍니다. 팀 전체가
+            사내문화를 개선하기 위해 노력합니다. 그 내용은 크리에이터 행동강령에서 확인하실 수 있습니다.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1 job-col">
+      <h2>아래 직군을 모집합니다</h2>
+      <table style="width:100%">
+        <thead>
+          <tr>
+            <th>지역</th>
+            <th>직군</th>
+            <th>경력</th>
+            </th>
+        </thead>
+        <tbody>
+            {{ range .Pages }}
+              <tr>
+                  <td><a href="{{.Permalink}}">서울</a></td>
+                  <td class="job-name"><a href="{{.Permalink}}">{{.Title}}</a></td>
+                  <td><a href="{{.Permalink}}">{{.Description}}</a></td>
+              </tr>
+            {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
 
 {{ partial "footer.html" . }}

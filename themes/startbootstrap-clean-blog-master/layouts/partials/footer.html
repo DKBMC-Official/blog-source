@@ -41,6 +41,19 @@
     <!-- jQuery -->
     <script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
 
+    <script>
+        var headTitle = $(".post-heading h1").text();
+        var $jobCon = $(".job-main-container");
+        if(headTitle === "Jobs") {
+          $(".intro-header.post-header.list-header").remove();
+          $(".list-container").remove();
+          $jobCon.show();
+        }
+        else {
+          $jobCon.remove();
+        }
+    </script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
 

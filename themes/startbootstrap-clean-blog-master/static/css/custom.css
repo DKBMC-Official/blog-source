@@ -456,3 +456,81 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     background-color: #f7f7f7;
 }
 
+
+/* 채용정보 메인 */
+.job-main-container {
+    display: none;
+}
+.job-container {
+    margin-top: 100px;
+}
+.job-container p {
+    color: #666;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+.job-container .job-col {
+    margin-bottom: 50px;
+}
+.job-container h2 {
+    margin-bottom: 25px;
+}
+.job-container .job-col .job-col__txt {
+    white-space: pre-line;
+}
+.job-container ul {
+    padding-left: 0;
+}
+.job-container ol {
+    padding-left: 15px;
+}
+
+.job-container li {
+    font-size: 18px;
+    line-height: 1.65;
+    font-weight: normal;
+    color: #666;
+}
+.job-container li h2,.job-container li h3 {
+    color: #404040;
+}
+.job-container.job-main-container li {
+    list-style: none;
+}
+
+.job-container table tbody tr td {
+    padding: 0;
+}
+.job-container table a {
+    display: block;
+    color: #0085a1;
+    text-decoration: underline;
+    padding: 10px 20px;
+}
+.job-container a {
+    color: #0085a1;
+}
+.job-container ol > li > ul {
+    margin-bottom: 15px;
+}
+
+@media all and (min-width: 1200px) {
+    .job-container .job-col .job-col__txt {
+        padding-left: 15px;
+    }
+    .job-container ul, .job-container ol {
+        padding-left: 15px;
+    }
+    .job-container h2 {
+        margin-bottom: 45px;
+    }
+}
+@media all and (max-width: 400px) {
+    .job-container table a {
+        padding: 10px;
+    }
+    .job-container table td:not(.job-name) {
+        text-align: center;
+    }
+}
