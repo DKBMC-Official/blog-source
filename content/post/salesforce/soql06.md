@@ -1,7 +1,7 @@
 +++
 #카테고리
 categories = [
-    "SQOL",
+    "SOQL",
 ]
 
 #작성자
@@ -10,7 +10,7 @@ authors = [
 ]
 
 #제목
-title = "SQOL 기본문법(06)"
+title = "SOQL 기본문법(06)"
 
 #설명
 description = "HAVING"
