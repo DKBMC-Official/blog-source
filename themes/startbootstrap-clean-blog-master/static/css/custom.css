@@ -527,7 +527,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
         padding-left: 15px;
     }
     .job-container h2 {
-        margin-bottom: 45px;
+        /* margin-bottom: 45px; */
     }
 }
 @media all and (max-width: 400px) {
@@ -537,4 +537,8 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     .job-container table td:not(.job-name) {
         text-align: center;
     }
+}
+
+.job-main-container hr {
+    margin-bottom: 30px;
 }
