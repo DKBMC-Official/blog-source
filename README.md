@@ -43,11 +43,11 @@
  
  위의 이미지 처럼 코드박스를 만드려면,
 
- {{< highlight html >}}
+ {{< highlight go >}}
 
-   ...
+   ... your code
    
- {{< /highlight >}}
+ {{< / highlight >}}
 
  안에 코드를 입력하시면 됩니다.
 
