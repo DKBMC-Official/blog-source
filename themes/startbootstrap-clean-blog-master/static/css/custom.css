@@ -1,7 +1,14 @@
 img{width:100%;}
 /*nav*/
 .navbar-custom {
-    position:sticky;
+    background-color: rgba(255,255,255,0.85) !important;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    z-index: 10;
+    position: fixed;
+    top: 0 !important;
+    left: 0;
+    transform: none !important;
+    z-index: 1030;
 }
 .navbar-header.page-scroll{
     height: 60px;
@@ -37,6 +44,7 @@ img{width:100%;}
 .intro-header{
     height: 20rem;
     border-bottom:1px solid #dadada;
+    margin-top: 60px;
 } 
 .intro-header.main-page-header {
     height: 30rem;
@@ -74,7 +82,7 @@ img{width:100%;}
 .intro-header .container{
     height: 100%;
 }
-.intro-header.post-header .container {
+.intro-header.post-header:not(.list-header) .container {
     background-color: rgba(255,255,255,0.25);
     padding: 3rem 0;
 }
@@ -143,10 +151,14 @@ img{width:100%;}
     margin-top: .5rem;  
 }
 /*post*/
-.intro-header.post-header {
+.intro-header.post-header:not(.list-header) {
     height: auto;
     border-bottom: none;
     padding: 6rem 0 0;
+}
+.intro-header.list-header {
+    height: auto;
+    padding: 5rem 0;
 }
 .post-header.intro-header .container .row{
     align-items: flex-end!important; 
@@ -190,6 +202,9 @@ img{width:100%;}
 @media all and (max-width: 768px) {
     .intro-header.post-header {
         padding: 6rem 0;
+    }
+    .intro-header.list-header {
+        padding: 3rem 0;
     }
     .intro-header.post-header .container {
         padding: 0;
@@ -358,6 +373,12 @@ img{width:100%;}
     font-size: 17px;
     color: #565656;
     line-height: 1.8;
+}
+.content-line li {
+    font-size: 17px;
+    color: #565656;
+    line-height: 1.65;
+    font-weight: normal;
 }
 .post-subtitle {
     font-size: 20px;
