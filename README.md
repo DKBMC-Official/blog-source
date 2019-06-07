@@ -49,6 +49,12 @@
    
  {{< / highlight >}}
 
+  {{< highlight sql >}}
+
+   ... your code
+   
+ {{< / highlight >}}
+
  안에 코드를 입력하시면 됩니다.
 
  ## 3. 블로그 배포 (관리자 only)
