@@ -30,7 +30,7 @@ date = 2019-06-07T14:53:34+09:00
 ---
 
 #### - Preview
-![QuickactionModalDefault](http://localhost:1313/img/post_img/quick01.jpg "QuickactionModalDefault")
+![QuickactionModalDefault](https://user-images.githubusercontent.com/50821963/59089950-5a776180-8946-11e9-9883-9ef13cd6a50c.jpg "QuickactionModalDefault")
 
 ---
 
@@ -144,7 +144,7 @@ date = 2019-06-07T14:53:34+09:00
 ---
 
 #### - Preview
-![QuickactionModalDefault](http://localhost:1313/img/post_img/quick02.jpg "QuickactionModalDefault")
+![QuickactionModalDefault](https://user-images.githubusercontent.com/50821963/59089999-7da21100-8946-11e9-99d8-4cb6de6abd4c.jpg "QuickactionModalDefault")
 
 ---
 
