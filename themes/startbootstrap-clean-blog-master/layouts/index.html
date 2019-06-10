@@ -1,8 +1,10 @@
 {{ partial "header.html" .}}
 
     <!-- Page Header -->
-    <header class="intro-header" ><!--style="background-image: url('{{ .Site.BaseURL }}/img/home.png')"-->
-     <div class="container">
+    <header class="intro-header main-page-header" style="background-image: url('{{ .Site.BaseURL }}/img/main-back.jpg')">
+      <div class="main-header__dimmer dimmer-blue"></div>
+      <div class="main-header__dimmer"></div>
+      <div class="container">
        <div class="row">
          <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
            <div class="site-heading">
@@ -24,7 +26,7 @@
         {{ partial "allCategoryList.html" .}}
       <div class="row">
         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-          <!-- <p>Recent Posts</p> -->
+          <p class="recent-post">Recent Posts</p>
           {{ $posts := or .Site.Params.PostSummariesFrontPage 5 }}
           {{ range first $posts (where .Data.Pages "Type" "post") }}
               {{ .Render "summary"}}

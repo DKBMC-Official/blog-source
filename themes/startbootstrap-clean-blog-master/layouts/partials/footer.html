@@ -60,6 +60,21 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ .Site.BaseURL }}/js/clean-blog.js"></script>
 
+    <script>
+      /* Main Category List -> Remove "-"  */
+      $(".category-list li a").each(function(){
+        var thisTxt = $(this).text();
+        var hyphenLength = thisTxt.split("-").length - 1;
+        if(hyphenLength >= 2) {
+          var replaceTxt = "-";
+          for(var i=1; i <= hyphenLength; i++){
+            replaceTxt += thisTxt.split("-")[i] + " ";
+          }
+          $(this).text(replaceTxt);
+        }
+      });
+    </script>
+
     {{ template "_internal/google_analytics.html" . }}
 
 </body>

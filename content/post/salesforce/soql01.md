@@ -34,11 +34,11 @@ FROM objectType[,...]
     [USINGSCOPE filterScope]
 [WHERE conditionExpression]
 [WITH [DATA CATEGORY] filteringExpression]
-[GROUPBY {fieldGroupByList|ROLLUP (fieldSubtotalGroupByList)|CUBE (fieldSubtotalGroupByList)}
+[GROUP BY {fieldGroupByList|ROLLUP (fieldSubtotalGroupByList)|CUBE (fieldSubtotalGroupByList)}
     [HAVING havingConditionExpression] ]
-[ORDERBY fieldOrderByList {ASC|DESC} [NULLS {FIRST|LAST}] ]
+[ORDER BY fieldOrderByList {ASC|DESC} [NULLS {FIRST|LAST}] ]
 [LIMIT numberOfRowsToReturn]
-[OFFSET numberOfRowsToSkip]
+[OFF SET numberOfRowsToSkip]
 [FOR {VIEW  | REFERENCE}[,...] ]
       [ UPDATE {TRACKING|VIEWSTAT}[,...] ]
 ```

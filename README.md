@@ -55,7 +55,9 @@
    
  {{< / highlight >}}
 
- 안에 코드를 입력하시면 됩니다.
+ 등 코드 형식 정의 후, 안에 코드를 입력하시면 됩니다.
+
+[Hugo Highlight 관련 문서 참고바랍니다](https://gohugo.io/content-management/syntax-highlighting/)
 
  ## 3. 블로그 배포 (관리자 only)
   - 배포 요청이 있을 시 `https://github.com/DKBMC-Official/blog-source` pull 받은 후
