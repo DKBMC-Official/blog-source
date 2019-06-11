@@ -630,7 +630,11 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     padding: 30px;
     /* max-height: 235px; */
     min-height: 235px;
-    background-color: #fff;
+    background-color: #fefefe;
+    transition-duration: 0.3s;
+}
+.job-benefits__wrap:hover {
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
 }
 .job-benefits__wrap > h4 {
     margin-bottom: 8px;
