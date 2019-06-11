@@ -546,6 +546,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     margin-top: 0;
     font-size: 18px;
     font-weight: normal;
+    line-height: 1.75;
 }
 .job-container .job-col {
     margin-bottom: 50px;
@@ -590,6 +591,43 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
 }
 .job-container ol > li > ul {
     margin-bottom: 15px;
+}
+
+.job-benefits {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 0;
+    width: 25%;
+    float: left;
+    padding-right: 15px;
+}
+.job-benefits:nth-of-type(4n+1) {
+    clear: both;
+}
+.job-benefits__wrap {
+    border: 1px solid #eaeaea;
+    padding: 30px 15px;
+    /* max-height: 235px; */
+    min-height: 235px;
+    background-color: #fff;
+}
+.job-benefits__wrap > h4 {
+    margin-bottom: 8px;
+}
+.job-benefits__wrap > p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.job-benefits__img {
+    max-width: 60px;
+}
+.job-benefits__line {
+    width: 20px;
+    height: 3px;
+    background-color: #0085a1;
+    margin: 0 auto;
+    margin-bottom: 8px;
 }
 
 @media all and (min-width: 1200px) {

@@ -93,4 +93,4 @@ DK BMC의 임원과 만나 근무 조건을 협의합니다. 이 과정에서 �
 
 ## 문의
 
-<creators.recruit@dkbmc.com>으로 궁금한 점을 편하게 문의 주세요.
+<recruit@dcbmc.com>으로 궁금한 점을 편하게 문의 주세요.
