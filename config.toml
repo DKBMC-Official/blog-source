@@ -29,7 +29,7 @@ paginate = 3
   name = "Posts"   
   url = "/post/" 
   weight = -180
-[[menu.main]]
-  name = "채용정보"
-  url = "/job/"
-  weight = -160
+#[[menu.main]]
+  #name = "채용정보"
+  #url = "/job/"
+  #weight = -160
