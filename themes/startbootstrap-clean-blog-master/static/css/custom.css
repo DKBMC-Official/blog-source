@@ -578,6 +578,13 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
 .job-container li h2,.job-container li h3 {
     color: #404040;
 }
+.job-container li h3 {
+    padding-left: 30px;
+    background-image: url("http://blog.dkbmc.com/img/check.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left center;
+}
 .job-container.job-main-container li {
     list-style: none;
 }
@@ -585,11 +592,36 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
 .job-container table tbody tr td {
     padding: 0;
 }
+.job-container table tbody tr td.recruit-status {
+    text-align: center;
+}
+.job-container table tbody tr td.recruit-status > a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0085a1;
+    display: inline-block;
+    padding: 3px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    letter-spacing: normal;
+}
+.job-container table tbody tr td.recruit-status > a.status-end {
+    background-color: #c1c1c1;
+}
+.job-container table .recruit-career {
+    border-right: 0;
+}
+.job-container table .recruit-status {
+    border-left: 0;
+}
 .job-container table a {
     display: block;
+    color: #333;
+    padding: 25px 20px;
+}
+.job-container table tbody tr:hover a {
     color: #0085a1;
     text-decoration: underline;
-    padding: 10px 20px;
 }
 .job-container a {
     color: #0085a1;
@@ -605,6 +637,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     width: 33.333%;
     float: left;
     padding-right: 15px;
+    transition-duration: 0.3s;
 }
 .job-benefits:nth-of-type(3n+1) {
     clear: both;

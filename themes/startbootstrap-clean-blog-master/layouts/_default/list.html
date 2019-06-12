@@ -290,21 +290,52 @@
           </div>
         </li>
         <li class="job-benefits">
-            <div class="job-benefits__wrap">
-              <img class="job-benefits__img" src="{{ .Site.BaseURL }}/img/clock.png" alt="복지포인트" />
-              <h4>자율 출근제</h4>
-              <div class="job-benefits__line"></div>
-              <p>복지포인트를 제공하여 개인이 원하는 분야에서 포인트 사용이 가능하도록 지원하고 있습니다.</p>
-            </div>
-          </li>
-          <li class="job-benefits">
-            <div class="job-benefits__wrap">
-              <img class="job-benefits__img" src="{{ .Site.BaseURL }}/img/money.png" alt="복지포인트" />
-              <h4>경조사 지원</h4>
-              <div class="job-benefits__line"></div>
-              <p>복지포인트를 제공하여 개인이 원하는 분야에서 포인트 사용이 가능하도록 지원하고 있습니다.</p>
-            </div>
-          </li>
+          <div class="job-benefits__wrap">
+            <img class="job-benefits__img" src="{{ .Site.BaseURL }}/img/clock.png" alt="복지포인트" />
+            <h4>자율 출근제</h4>
+            <div class="job-benefits__line"></div>
+            <p>복지포인트를 제공하여 개인이 원하는 분야에서 포인트 사용이 가능하도록 지원하고 있습니다.</p>
+          </div>
+        </li>
+        <li class="job-benefits">
+          <div class="job-benefits__wrap">
+            <img class="job-benefits__img" src="{{ .Site.BaseURL }}/img/money.png" alt="복지포인트" />
+            <h4>경조사 지원</h4>
+            <div class="job-benefits__line"></div>
+            <p>복지포인트를 제공하여 개인이 원하는 분야에서 포인트 사용이 가능하도록 지원하고 있습니다.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- DKBMC 대표 소개 -->
+    <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1 job-col">
+      <h2>
+        DKBMC 대표, 배창욱의 자기 소개서
+      </h2>
+      <hr />
+      <ul>
+        <li>
+          <h3>커리어</h3>
+          <p>
+            DK BMC는 클라우드 기반의 혁신적인 경영 지원 솔루션을 활용해 기업이 불확실한 경영환경에서도
+            지속적으로 성공할 수 있는 혁신 기업이 될 수 있도록 돕고 있습니다.
+          </p>
+        </li>
+        <li>
+          <h3>사업 동기</h3>
+          <p>
+            DK BMC는 클라우드 기반의 혁신적인 경영 지원 솔루션을 활용해 기업이 불확실한 경영환경에서도
+            지속적으로 성공할 수 있는 혁신 기업이 될 수 있도록 돕고 있습니다.
+          </p>
+        </li>
+        <li>
+          <h3>개인 가치관</h3>
+          <p>
+            DK BMC는 클라우드 기반의 혁신적인 경영 지원 솔루션을 활용해 기업이 불확실한 경영환경에서도
+            지속적으로 성공할 수 있는 혁신 기업이 될 수 있도록 돕고 있습니다.
+          </p>
+        </li>
       </ul>
     </div>
 
@@ -314,17 +345,23 @@
       <table style="width:100%">
         <thead>
           <tr>
-            <th>지역</th>
+            <th>모집기간</th>
             <th>직군</th>
-            <th>경력</th>
-            </th>
+            <th class="recruit-career">경력</th>
+            <th class="recruit-status"></th>
+          </tr>
         </thead>
         <tbody>
           {{ range .Pages }}
           <tr>
-            <td><a href="{{.Permalink}}">서울</a></td>
+            <td><a href="{{.Permalink}}">{{.Params.period}}</a></td>
             <td class="job-name"><a href="{{.Permalink}}">{{.Title}}</a></td>
-            <td><a href="{{.Permalink}}">{{.Description}}</a></td>
+            <td class="recruit-career"><a href="{{.Permalink}}">{{.Description}}</a></td>
+            {{ if .Params.recruit}}
+              <td class="recruit-status"><a href="{{.Permalink}}">접수중</a></td>
+            {{else}}
+              <td class="recruit-status"><a class="status-end" href="{{.Permalink}}">접수마감</a></td>
+            {{end}}
           </tr>
           {{ end }}
         </tbody>
