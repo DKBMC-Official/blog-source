@@ -134,24 +134,33 @@
       <hr />
       <ul>
         <li>
-          <h3>첫째,</h3>
+          <h3>세일즈포스에 익숙하지 않은 당신</h3>
           <p>
-            DK BMC는 클라우드 기반의 혁신적인 경영 지원 솔루션을 활용해 기업이 불확실한 경영환경에서도
-            지속적으로 성공할 수 있는 혁신 기업이 될 수 있도록 돕고 있습니다.
+            클라우드와 친해지는데 어려움이 있을 수 있어요!
           </p>
         </li>
         <li>
-          <h3>둘째,</h3>
+          <h3>포인트를 명확하게</h3>
           <p>
-            DK BMC는 클라우드 기반의 혁신적인 경영 지원 솔루션을 활용해 기업이 불확실한 경영환경에서도
-            지속적으로 성공할 수 있는 혁신 기업이 될 수 있도록 돕고 있습니다.
+            단순한 코더가 아닌 개발자가 되기 위해 노력이 필요해요!
           </p>
         </li>
         <li>
-          <h3>셋째,</h3>
+          <h3>조급함은 금물</h3>
           <p>
-            DK BMC는 클라우드 기반의 혁신적인 경영 지원 솔루션을 활용해 기업이 불확실한 경영환경에서도
-            지속적으로 성공할 수 있는 혁신 기업이 될 수 있도록 돕고 있습니다.
+            마음이 앞서더라도 기본기가 탄탄한 인재를 원해요!
+          </p>
+        </li>
+        <li>
+          <h3>같은 코드라 할 지라도 조금 더 효율적으로</h3>
+          <p>
+            어제보다 조금 더 나은 오늘이 중요해요!
+          </p>
+        </li>
+        <li>
+          <h3>내 일은 곧 팀의 일, 팀의 일은 곧 나의 일</h3>
+          <p>
+            우월한 개인보다 멋진 팀워크를 보여주세요!
           </p>
         </li>
       </ul>
@@ -340,7 +349,7 @@
     </div>
 
     <!-- 채용공고 -->
-    <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1 job-col">
+    <!-- <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1 job-col">
       <h2>아래 직군을 모집합니다</h2>
       <table style="width:100%">
         <thead>
@@ -356,16 +365,42 @@
           <tr>
             <td><a href="{{.Permalink}}">{{.Params.period}}</a></td>
             <td class="job-name"><a href="{{.Permalink}}">{{.Title}}</a></td>
-            <td class="recruit-career"><a href="{{.Permalink}}">{{.Description}}</a></td>
-            {{ if .Params.recruit}}
-              <td class="recruit-status"><a href="{{.Permalink}}">접수중</a></td>
-            {{else}}
-              <td class="recruit-status"><a class="status-end" href="{{.Permalink}}">접수마감</a></td>
+            <td class="recruit-career"><a href="{{.Permalink}}">{{.Description}}</a></td> -->
+
+    <!-- recruit : true 일 경우 (접수중) -->
+    <!-- {{ if .Params.recruit}}
+            <td class="recruit-status"><a href="{{.Permalink}}">접수중</a></td> -->
+
+    <!-- recruit : false 일 경우 (접수마감) -->
+    <!-- {{else}}
+            <td class="recruit-status"><a class="status-end" href="{{.Permalink}}">접수마감</a></td>
             {{end}}
+
           </tr>
           {{ end }}
         </tbody>
       </table>
+    </div> -->
+    <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1 job-col">
+      <h2>아래 직군을 모집합니다</h2>
+      <hr class="recruit__hr"/>
+      <ul class="recruit-list">
+        {{ range .Pages }}
+        <li>
+          <a href="{{.Permalink}}">
+              <h5>{{.Title}} [{{.Description}}]</h5>
+              <p>모집기간 : {{.Params.period}}</p>
+          </a>
+          <!-- recruit : true 일 경우 (접수중) -->
+          {{ if .Params.recruit}}
+          <mark class="recruit-status">접수중</mark>
+          <!-- recruit : false 일 경우 (접수마감) -->
+          {{else}}
+          <mark class="recruit-status status-end">접수마감</mark>
+          {{end}}
+        </li>
+        {{end}}
+      </ul>
     </div>
   </div>
 </section>

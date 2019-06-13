@@ -15,6 +15,9 @@ title = ""
 #설명
 description = ""
 
+#프로필 사진 (사진: 자신의 한글 이름 입력 / 아바타이미지: 1~51 숫자 입력)
+avatar = ""
+
 #공개: false / 비공개: true
 draft = false
 
