@@ -1,12 +1,19 @@
                <div class="post-preview">
-                  <!--<p class="post-meta"><a href="{{ .Permalink }}">{{ .Title }}</a> {{now.Format "Mon, Jan 2, 2006"}}
-                    <br />
-                    {{ partial "categories.html" .}}
-                    <div class="tag_wrap">{{ partial "tags.html" .}}</div>
-                  </p>-->
+                  {{if .Params.avatar}}
+                  <i class="post-avatar" style="background-image:url('{{ .Site.BaseURL }}/img/avatar/{{.Params.avatar}}.png');"></i>
+                  {{end}}
                   <span class="post-preview_date"><b>{{.Page.Date.Format "Mon, Jan 2, 2006"}}</b></span>
+                  <a href="#" class="author">
+                      <!-- <i class="post-avatar" style="background-image:url('{{ .Site.BaseURL }}/img/avatar/avatar-1.png');"></i> -->
+                      {{ range $index, $c :=  .Params.authors }}
+                      {{- if eq $index 0 -}}
+                      <span>{{ title . }}</span>
+                      {{- else -}}
+                      , <span>{{ title . }}</span>
+                      {{- end -}}
+                      {{ end }}
+                    </a>
                  <a href="{{ .Permalink }}">
-                    
                       <h2 class="post-title">{{ .Title }}</h2>
                     </a>
                     

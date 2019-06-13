@@ -1,3 +1,6 @@
+html,body {
+    min-width: 320px;
+}
 img{width:100%;}
 /*nav*/
 .navbar-custom {
@@ -146,9 +149,56 @@ img{width:100%;}
     font-size: 1.65rem;
     /*margin-left:1.5rem;*/
     color:#fff;
+    position: relative;
+    padding-right: 50px;
 }
+.post-avatar {
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: 3.5rem;
+    right: 6rem;
+    background-color: #f1f1f1;
+    border: 1px solid #dfdfdf;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.post-avatar.img-avatar {
+    background-size: 5rem;
+    background-position: center bottom;
+}
+/* .post-avatar.default-avatar {
+    background-size: cover !important;
+    background-position: center !important;
+} */
+@media all and (max-width: 520px) {
+    .post-preview > a > .post-title {
+        padding-right: 8rem !important;
+    }
+    .post-avatar {
+        width: 4.5rem;
+        height: 4.5rem;
+        right: 3rem;
+    }
+    .post-avatar.img-avatar {
+        background-size: 4rem;
+    }
+}
+@media all and (max-width: 450px) {
+    .post-preview > a > .post-title {
+        padding-right: 6rem !important;
+    }
+    .post-avatar {
+        right: 1.5rem;
+    }
+}
+
 .post-preview>a>.post-title{
-    margin-top: .5rem;  
+    margin-top: .75rem;
+    padding-right: 13rem;
 }
 /*post*/
 .intro-header.post-header:not(.list-header) {
@@ -390,6 +440,8 @@ img{width:100%;}
 }
 .post-preview {
     padding-left: 15px;
+    padding-top: 5px;
+    position: relative;
 }
 .navbar-toggle {
     margin-top: 12.5px;
@@ -580,7 +632,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
 }
 .job-container li h3 {
     padding-left: 30px;
-    background-image: url("http://blog.dkbmc.com/img/check.png");
+    background-image: url("/img/check.png");
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: left center;
@@ -717,4 +769,64 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     padding: 1rem;
     color: #0085a1;
     margin-top: 5px;
+}
+
+.job-container .recruit-list {
+    padding-right: 15px;
+}
+.job-container .recruit-list > li {
+    padding: 30px 125px 30px 15px;
+    border-bottom: 2px solid #eaeaea;
+    position: relative;
+}
+/* .job-container .recruit-list > li:first-of-type {
+    border-top: 2px solid #eaeaea;
+} */
+.job-container .recruit__hr {
+    margin-bottom: 0;
+}
+.job-container .recruit-list > li > a {
+    display: block;
+}
+.job-container .recruit-list > li > a > h5 {
+    color: #404040;
+    font-size: 25px;
+}
+.job-container .recruit-list > li > a:hover > h5 {
+    color: #0085a1;
+}
+.job-container .recruit-list > li > a > p {
+    color: #999;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.job-container .recruit-list > li::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.job-container .recruit-list > li .recruit-status {
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    background-color: #0085a1;
+    top: 50%;
+    right: 15px;
+    margin-top: -18px;
+    padding: 0 15px;
+    height: 36px;
+    line-height: 36px;
+}
+.job-container .recruit-list > li .recruit-status.status-end {
+    background-color: #dfdfdf;
+}
+@media all and (max-width: 500px) {
+    .job-container .recruit-list > li {
+        padding: 30px 15px;
+    }
+    .job-container .recruit-list > li .recruit-status {
+        position: static;
+        margin-top: 15px;
+    }
 }

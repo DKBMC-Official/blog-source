@@ -73,6 +73,14 @@
           $(this).text(replaceTxt);
         }
       });
+
+      /* Avatar 관련 */
+      $(".post-avatar").each(function(){
+        var imgUrl = $(this).css("background-image").split("/");
+        if(imgUrl.pop().indexOf("%") === -1) {
+          $(this).addClass("img-avatar");
+        }
+      });
     </script>
 
     {{ template "_internal/google_analytics.html" . }}
