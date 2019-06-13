@@ -48,7 +48,7 @@ Operator | Name | Description
 <= | Less or equal | 
 > | Greater than | 
 >= | Greater or equal | 
-LIKE | Like | SELECT AccountId, FirstName, lastname <br/>FROM Contact <br/> WHERE lastname LIKE'appl%'
+LIKE | Like | SELECT AccountId, FirstName, lastname <br/>FROM Contact <br/> WHERE lastname LIKE 'appl%'
 IN | IN | SELECT Name FROM Account <br/> WHERE BillingState IN ('California', 'New York')
 NOT IN | NOT IN | SELECT Name FROM Account<br/>WHERE BillingState NOTIN ('California', 'New York')					
 INCLUDES <br/> EXCLUDES| | Applies only to multi-select picklists.			

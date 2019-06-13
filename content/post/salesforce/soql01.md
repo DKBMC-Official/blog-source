@@ -38,7 +38,7 @@ FROM objectType[,...]
     [HAVING havingConditionExpression] ]
 [ORDER BY fieldOrderByList {ASC|DESC} [NULLS {FIRST|LAST}] ]
 [LIMIT numberOfRowsToReturn]
-[OFF SET numberOfRowsToSkip]
+[OFFSET numberOfRowsToSkip]
 [FOR {VIEW  | REFERENCE}[,...] ]
       [ UPDATE {TRACKING|VIEWSTAT}[,...] ]
 ```

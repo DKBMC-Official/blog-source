@@ -32,7 +32,7 @@ date = 2019-05-28T13:09:45+09:00
 Aggregate Function | Description
 ---|:---
 AVG() | SELECT CampaignId, AVG(Amount) <br/> FROM Opportunity <br/> GROUP BY CampaignId
-COUNT() and COUNT(fieldName) | SELECT COUNT() <br/> FROM Account <br/> WHERE Name LIKE'a%’ <br/> <br/> SELECT COUNT(Id) <br/> FROM Account <br/> WHERE Name LIKE'a%’ <br/> GROUP BY 절을 사용하는 경우 COUNT () 대신 COUNT (fieldName)를 사용하십시오.
+COUNT() and COUNT(fieldName) | SELECT COUNT() <br/> FROM Account <br/> WHERE Name LIKE 'a%’ <br/> <br/> SELECT COUNT(Id) <br/> FROM Account <br/> WHERE Name LIKE 'a%’ <br/> GROUP BY 절을 사용하는 경우 COUNT () 대신 COUNT (fieldName)를 사용하십시오.
 COUNT_DISTINCT() | SELECT COUNT_DISTINCT(Company) <br/> FROM Lead
 MIN() | SELECT MIN(CreatedDate), FirstName, LastName <br/> FROM Contact <br/>GROUP BY FirstName, LastName
 MAX() | SELECT Name, MAX(BudgetedCost) <br/> FROM Campaign <br/> GROUP BY Name

@@ -1,7 +1,7 @@
 +++
 #카테고리
 categories = [
-    "SOQL",
+    "SQOL",
 ]
 
 #작성자
@@ -10,7 +10,7 @@ authors = [
 ]
 
 #제목
-title = "SOQL 기본문법(06)"
+title = "SQOL 기본문법(06)"
 
 #설명
 description = "HAVING"
@@ -54,7 +54,7 @@ GROUP BY LeadSource
   SELECT LeadSource, COUNT(Name)
     FROM Lead
 GROUP BY LeadSource
-  HAVING COUNT(Name) > 100and City LIKE'San%'
+  HAVING COUNT(Name) > 100and City LIKE 'San%'
 ```
 ###### &nbsp;
 ### TYPEOF (BATA)

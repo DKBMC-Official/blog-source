@@ -156,7 +156,7 @@ Lookup field or Detail의 Parent Field 만들 때 Child Relationship Name 지정
 
 SELECT Id, FirstName__c, Mother_of_Child__r.FirstName__c
   FROM Daughter__c
- WHERE Mother_of_Child__r.LastName__c LIKE'C%'
+ WHERE Mother_of_Child__r.LastName__c LIKE 'C%'
 
 SELECT LastName__c,
     (
@@ -179,5 +179,5 @@ SELECT Id, Name,
       FROM Contacts
     )
   FROM Account
- WHERE Name like 'Acme%'
+ WHERE Name LIKE 'Acme%'
 ```

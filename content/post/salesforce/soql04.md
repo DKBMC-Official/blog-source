@@ -80,7 +80,7 @@ SELECT Name
    WHERE Price__c > 5.0
 ORDER BY Name
    LIMIT 100
- OFF SET 10
+  OFFSET 10
 ```
 ##### OFFSET 사용시 고려 사항
 
