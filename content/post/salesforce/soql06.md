@@ -1,7 +1,7 @@
 +++
 #카테고리
 categories = [
-    "SQOL",
+    "SOQL",
 ]
 
 #작성자
