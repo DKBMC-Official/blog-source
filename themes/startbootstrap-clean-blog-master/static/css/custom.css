@@ -22,7 +22,7 @@ img{width:100%;}
     padding: 1.5rem 1rem;
 }
 .navbar-brand > img{
-    width:150px!important;
+    width:215px!important;
 }
 .navbar{
     margin-bottom:0;
@@ -145,6 +145,9 @@ img{width:100%;}
     margin-right: 0.5rem;
     color: gray;
 }
+.post-preview>a:hover, .post-preview>a:focus {
+    color: #2b92e4;
+}
 .author{
     font-size: 1.65rem;
     /*margin-left:1.5rem;*/
@@ -165,6 +168,7 @@ img{width:100%;}
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    pointer-events: none;
 }
 .post-avatar.img-avatar {
     background-size: 5rem;
@@ -240,7 +244,7 @@ img{width:100%;}
     padding-right:30px;
 }
 blockquote{
-    border-left: 5px solid #0085a1!important;
+    border-left: 5px solid #176db5!important;
 }
 blockquote p{
     margin-top:0;
@@ -269,7 +273,7 @@ img{width:100%;}
         color:#404040;
     }
     .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus{
-        color:#0085a1;
+        color:#176db5;
     }
     .navbar-custom .navbar-brand{
         display: inline-block;
@@ -293,7 +297,7 @@ img{width:100%;}
     } 
 
     blockquote{
-        border-left: 5px solid #0085a1!important;
+        border-left: 5px solid #176db5!important;
     }
     blockquote p{
         margin-top:0;
@@ -317,7 +321,7 @@ img{width:100%;}
 .category .category-title {
     font-weight: 600;
     padding: 1rem;
-    color:#0085a1; 
+    color:#176db5; 
 }
 .category .category-list {
     padding-left: 2rem;
@@ -398,7 +402,7 @@ p a {
     text-decoration: unset;
 }
 blockquote{
-    border-left: 5px solid #0085a1!important;
+    border-left: 5px solid #176db5!important;
 }
 blockquote p{
     margin-top:0;
@@ -409,13 +413,13 @@ img{width:100%;}
 
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-    background-color: #0085a1;
+    background-color: #176db5;
 }
 .pagination>li:last-child>a, .pagination>li:last-child>span {
-    color: #0085a1;
+    color: #176db5;
 }
 .content-line a {
-    color: #0085a1;
+    color: #176db5;
 }
 .content-line p {
     word-break: break-all;
@@ -442,6 +446,9 @@ img{width:100%;}
     padding-left: 15px;
     padding-top: 5px;
     position: relative;
+}
+.post-preview>.post-meta {
+    font-style: normal;
 }
 .navbar-toggle {
     margin-top: 12.5px;
@@ -486,7 +493,15 @@ img{width:100%;}
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.pager li .older-post__btn {
+    background-color: #176db5;
+    color: #fff;
+    border: 0;
+}
+.pager li .older-post__btn:hover {
+    background-color: #2b92e4;
+    border: 0;
+}
 .dkhome-link {
     position: relative;
     display: inline-block;
@@ -502,7 +517,7 @@ img{width:100%;}
     background-repeat: no-repeat;
 }
 .dkhome-link:hover {
-    background-color: #0085a1;
+    background-color: #2b92e4;
 }
 
 @media all and (max-width: 360px) {
@@ -543,7 +558,7 @@ img{width:100%;}
         display: block;
     }
     .navbar-brand > img {
-        width: 120px !important;
+        width: 185px !important;
         margin-top: 3.5px;
     }
 }
@@ -562,7 +577,7 @@ th {
     font-size: 16px;
     font-weight: bold;
     border: 1px solid #ccc;
-    border-bottom: 2px solid #0085a1;
+    border-bottom: 2px solid #176db5;
 }
 tr {
     background: #fff;
@@ -584,7 +599,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
 
 /* 채용정보 메인 */
 .job-container hr {
-    border-color: #0085a1;
+    border-color: #176db5;
     border-width: 3px;
 }
 .job-main-container {
@@ -650,7 +665,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
 .job-container table tbody tr td.recruit-status > a {
     text-decoration: none;
     color: #fff;
-    background-color: #0085a1;
+    background-color: #176db5;
     display: inline-block;
     padding: 3px 10px;
     font-size: 14px;
@@ -672,11 +687,14 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     padding: 25px 20px;
 }
 .job-container table tbody tr:hover a {
-    color: #0085a1;
+    color: #176db5;
     text-decoration: underline;
 }
 .job-container a {
-    color: #0085a1;
+    color: #176db5;
+}
+.job-container a:hover {
+    color: #2b92e4;
 }
 .job-container ol > li > ul {
     margin-bottom: 15px;
@@ -735,7 +753,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
 .job-benefits__line {
     width: 20px;
     height: 3px;
-    background-color: #0085a1;
+    background-color: #176db5;
     margin: 0 auto;
     margin-bottom: 8px;
 }
@@ -767,7 +785,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     border-bottom: 1px solid #f1f1f1;
     font-weight: 600;
     padding: 1rem;
-    color: #0085a1;
+    color: #176db5;
     margin-top: 5px;
 }
 
@@ -792,8 +810,9 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     color: #404040;
     font-size: 25px;
 }
-.job-container .recruit-list > li > a:hover > h5 {
-    color: #0085a1;
+.job-container .recruit-list > li > a:hover > h5,
+.job-container .recruit-list > li > a:hover > p {
+    color: #2b92e4;
 }
 .job-container .recruit-list > li > a > p {
     color: #999;
@@ -810,7 +829,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     position: absolute;
     color: #fff;
     font-size: 18px;
-    background-color: #0085a1;
+    background-color: #176db5;
     top: 50%;
     right: 15px;
     margin-top: -18px;
