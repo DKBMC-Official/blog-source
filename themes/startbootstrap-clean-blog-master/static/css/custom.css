@@ -519,6 +519,7 @@ img{width:100%;}
     font-weight: bold;
     letter-spacing: normal;
     padding: 12px 30px;
+    display: block;
 }
 .DK-blog__footer .DK-link__wrap .DK-link__nav a:hover {
     text-decoration: none;
@@ -542,6 +543,18 @@ img{width:100%;}
 .DK-blog__footer .DK-SNS__wrap {
     padding-top: 40px;
 }
+@media all and (max-width: 992px) {
+    .DK-blog__footer .DK-link__wrap {
+      padding: 0;
+    }
+    .DK-blog__footer .DK-link__wrap .DK-link__nav a {
+      border-bottom:  1px solid #eaeaea;
+      border-right: 0;
+    }
+    .DK-blog__footer .DK-link__wrap .DK-link__nav a:last-of-type {
+      border-bottom: 0;
+    }
+  }
 
 .dkhome-link {
     position: relative;
