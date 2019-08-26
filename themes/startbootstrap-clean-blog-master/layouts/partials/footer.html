@@ -1,14 +1,23 @@
-    <hr>
+    <hr style="margin-bottom: 0;margin-top: 60px;">
     <!-- Footer -->
-    <footer>
-        <div class="container">
+    <footer class="DK-blog__footer">
+        <div class="container-fluid DK-link__wrap">
+          <div class="container">
+            <nav class="DK-link__nav row">
+              <a href="http://www.dkbmc.com/" target="_blank" class="col-lg-4">DKBMC 홈페이지 <i class="DK-link__arrow" style="background-image:url('{{ .Site.BaseURL }}/img/DK_Support_Basic_Arrow.png')"></i></a>
+              <a href="http://biz.dkbmc.com/" target="_blank" class="col-lg-4">DKBMC 비즈니스 블로그 <i class="DK-link__arrow" style="background-image:url('{{ .Site.BaseURL }}/img/DK_Support_Basic_Arrow.png')"></i></a>
+              <a href="https://support-dkbmc.cs5.force.com/support" target="_blank" class="col-lg-4">DKBMC 고객센터 <i class="DK-link__arrow" style="background-image:url('{{ .Site.BaseURL }}/img/DK_Support_Basic_Arrow.png')"></i></a>
+            </nav>
+          </div>
+        </div>
+        <div class="container DK-SNS__wrap">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   <ul class="list-inline text-center">
-                      <li>
+                      <!--<li>
                           <a class="dkhome-link" href="http://www.dkbmc.com/" target="_blank" title="DKBMC 홈페이지" 
                           style="background-image:url('{{ .Site.BaseURL }}/img/ico-cloud.png');"></a>
-                      </li>
+                      </li>-->
                     {{ with .Site.Params.email }}
                       <li>
                         <a href="mailto:{{ . }}">
@@ -37,6 +46,9 @@
             </div>
         </div>
     </footer>
+    <div id="loading">
+      <div class="loader"></div>
+    </div>
 
     <!-- jQuery -->
     <script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
@@ -61,6 +73,11 @@
     <script src="{{ .Site.BaseURL }}/js/clean-blog.js"></script>
 
     <script>
+      $(window).on("load",function(){
+        /* Loader */
+        $("#loading").delay(500).fadeOut(500);
+      });
+
       /* Main Category List -> Remove "-"  */
       $(".category-list li a").each(function(){
         var thisTxt = $(this).text();
