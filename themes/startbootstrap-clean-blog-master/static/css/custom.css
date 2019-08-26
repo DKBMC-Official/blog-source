@@ -22,7 +22,9 @@ img{width:100%;}
     padding: 1.5rem 1rem;
 }
 .navbar-brand > img{
-    width:215px!important;
+    /*width:215px!important;*/
+    height: 27px;
+    width: auto !important;
 }
 .navbar{
     margin-bottom:0;
@@ -146,7 +148,7 @@ img{width:100%;}
     color: gray;
 }
 .post-preview>a:hover, .post-preview>a:focus {
-    color: #2b92e4;
+    color: #176db5;
 }
 .author{
     font-size: 1.65rem;
@@ -278,7 +280,7 @@ img{width:100%;}
     .navbar-custom .navbar-brand{
         display: inline-block;
         height: 100%;
-        padding: 1.5rem 1rem;
+        padding: 1.65rem 1rem;
     }
     /*main banner*/
     .intro-header .site-heading{
@@ -494,13 +496,10 @@ img{width:100%;}
     background-repeat: no-repeat;
 }
 .pager li .older-post__btn {
-    background-color: #176db5;
-    color: #fff;
-    border: 0;
+    border-radius: 3px;
 }
 .pager li .older-post__btn:hover {
-    background-color: #2b92e4;
-    border: 0;
+    background-color: #176db5;
 }
 .dkhome-link {
     position: relative;
@@ -517,7 +516,7 @@ img{width:100%;}
     background-repeat: no-repeat;
 }
 .dkhome-link:hover {
-    background-color: #2b92e4;
+    background-color: #176db5;
 }
 
 @media all and (max-width: 360px) {
@@ -694,7 +693,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     color: #176db5;
 }
 .job-container a:hover {
-    color: #2b92e4;
+    color: #176db5;
 }
 .job-container ol > li > ul {
     margin-bottom: 15px;
@@ -812,7 +811,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
 }
 .job-container .recruit-list > li > a:hover > h5,
 .job-container .recruit-list > li > a:hover > p {
-    color: #2b92e4;
+    color: #176db5;
 }
 .job-container .recruit-list > li > a > p {
     color: #999;
