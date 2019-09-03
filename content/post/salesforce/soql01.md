@@ -30,7 +30,7 @@ date = 2019-05-24T14:17:04+09:00
 <!-- 게시글 내용 -->
 
 ### SOQL SELECT 구문 
-```sql
+{{< highlight SQL >}}
 SELECT fieldList [subquery][...]
 [TYPEOF typeOfField whenExpression[...] elseExpression END][...]
 FROM objectType[,...]
@@ -44,11 +44,11 @@ FROM objectType[,...]
 [OFFSET numberOfRowsToSkip]
 [FOR {VIEW  | REFERENCE}[,...] ]
       [ UPDATE {TRACKING|VIEWSTAT}[,...] ]
-```
+{{< /highlight >}}
 
 ###### &nbsp;
 ### SOQL 쿼리에서 null 사용
-```sql
+{{< highlight SQL >}}
 SELECT AccountId
   FROM Event
  WHERE ActivityDate != null
@@ -56,7 +56,7 @@ SELECT AccountId
 SELECT Id
   FROM Case
  WHERE Contact.LastName = null
-```
+{{< /highlight >}}
 
 ###### &nbsp;
 ### Boolean(참/거짓) 필드 필터링
