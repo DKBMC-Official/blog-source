@@ -388,7 +388,10 @@ img{width:100%;}
 
 .content-line{
     padding-bottom:5rem;
-} 
+}
+.content-line .highlight > pre {
+    font-size: 15px;
+}
 
 /*chtter*/
 .utterances{
